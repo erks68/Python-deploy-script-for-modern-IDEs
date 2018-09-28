@@ -1,0 +1,24 @@
+{
+    "project_1": {
+        "server": "server1.example.com",
+        "method": "scp",
+        "remote_path": "/var/www/html/project_1"
+    },
+    "project_2": {
+        "server": "server2.example.com",
+        "remote_path": "/var/www/html/project_2",
+        "build_cmd": "lessc --source-map /var/www/html/project_2/less/style.less /var/www/html/project_2/css/style.css" 
+    },
+    "project_3": {
+        "server": "server3.example.com",
+        "remote_path": "/var/www/html/project_3",
+        "remote_path_htdocs": "/var/www/html/project_3/htdocs/"
+    },
+    "project_4": {
+        "server": "server4.example.com",
+        "port": 622,
+        "user": "user1",
+        "method": "scp",
+        "remote_path": "/var/www/html/project_4"
+    }   
+}

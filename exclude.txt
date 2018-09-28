@@ -1,0 +1,14 @@
+nbproject
+tests
+node_modules
+src
+htdocs
+.cache
+.git
+.vscode
+.idea
+*-workspace
+.gitignore
+*.sh
+*.less
+*.md
