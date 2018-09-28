@@ -1,8 +1,8 @@
 # Python deploy script for modern IDEs
 
-It uses rsync or scp and SSH keys authentication.
+It uses rsync or scp and SSH keys for authentication.
 
-Put sync folder in your home dir.
+Copy files to sync folder in your home dir.
 
 ## VS Code
 Install extension "Run on save".
