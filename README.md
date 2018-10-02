@@ -27,7 +27,7 @@ In Settings->Tools->File Watchers add new watcher.
 ```
 Name: sync
 File type: Any
-Scope:
+Scope: All Places
 Program: python
 Arguments: /home/<user>/sync/sync.py $ProjectFileDir$ $FilePath$ <user>
 ```
